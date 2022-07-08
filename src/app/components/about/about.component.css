@@ -1,0 +1,30 @@
+img{
+    
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 17%;
+        border-radius: 33px;
+      
+}
+
+.about{
+        font-size: 35px;
+        text-align: center;
+}
+
+@keyframes marquee {
+        100% { transform: translateX(100%); }
+        100% { transform: translateX(-100%); }
+      }
+
+marquee{
+margin: 3px; 
+border: 0px; 
+background: transparent none;  
+color: black;
+font-size: 69px;
+font-weight: bold;
+  
+}
+

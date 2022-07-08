@@ -1,0 +1,39 @@
+.kontakt{
+
+    text-align: center;
+    margin: 10px auto;
+    padding: 5px;
+    font-size: 30px;
+    width: 40%;
+    
+
+}
+fieldset{
+    background-image: linear-gradient(to bottom left, #b647e9, rgba(45, 165, 169, 0.505));
+}
+
+input, textarea{
+    font-size: 25px;
+    padding: 10px;
+    
+}
+
+button{
+    font-size: 30px;
+    border:solid 2px;
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom left, #b647e9, rgba(45, 165, 169, 0.505));
+    cursor: pointer;
+}
+
+legend{
+    font-size: 45px;
+    font-family: "Brush Script MT";
+    background-color: #b647e9;
+    border-radius: 50px;
+    padding: 15px;
+}
+
+button:hover{
+    transform: scale(1.1);
+}

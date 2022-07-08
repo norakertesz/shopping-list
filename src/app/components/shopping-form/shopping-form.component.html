@@ -1,0 +1,17 @@
+
+    <div class="form">
+        <input type="hidden" id="inputId" ><br>
+        <label for="product" >Product</label><br>
+        <input type="text" id="product" placeholder="What...?" [(ngModel)]="product"><br>
+        <label for="amount">Amount</label><br>
+        <input type="number" min="0" id="amount" placeholder="How many...?" [(ngModel)]="amount"><br>
+        <label for="unit">Unit</label><br>
+        <input type="text" id="unit" placeholder="mg/g/dg/kg/ml/l..." [(ngModel)]="unit"><br>
+        <label for="note">Note</label><br>
+        <textarea id="note" cols="20" rows="10" [(ngModel)]="note" placeholder="Add what's important or helpful..."></textarea><br>
+        <br><br>
+        <button id="btnAdd" class="addBtn" type="submit" (click)="handleSave()">Add</button>
+</div>
+
+//
+

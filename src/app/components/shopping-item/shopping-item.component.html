@@ -1,0 +1,8 @@
+<div class="itemCard" (dblclick)="navigateToDetail()" title="Overwrite with double-click"> 
+<h2>{{product.product}}</h2>
+<p><b>Amount:</b>{{product.amount}}<p>
+<p><b>Unit:</b> {{product.unit}}</p>
+<p><b>Note:</b>{{product.note}}</p>
+<button class="done" (click)="toggleDone()" >Done:{{product.done ? "✅":"❌"}}</button> <br> 
+<button (click)="deleteAsking()" class="removeBtn">Remove✂</button>
+</div>

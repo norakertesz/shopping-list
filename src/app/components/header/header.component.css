@@ -1,0 +1,56 @@
+h1 {
+  font-size: 70px;
+  color: rgb(80, 0, 80);
+  text-align: center;
+  margin: auto;
+  padding: 15px;
+  font-family: "Brush Script MT";
+}
+
+header {
+  background-image: linear-gradient(to bottom left, #b647e9, rgb(45, 164, 169));
+}
+
+ul {
+  display: flex;
+  text-align: center;
+  margin: auto;
+  font-size: 25px;
+  list-style-type: none;
+  padding: 2px;
+  border:solid 1px black;
+  background-image: linear-gradient(to bottom left, #b647e9, rgba(45, 165, 169, 0.505));
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+
+
+}
+
+li {
+  padding: 10px;
+  margin: auto;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Brush Script MT";
+  font-size: 35px;
+
+}
+
+@keyframes flip {
+  from {
+    transform: rotateY(0deg);
+  }
+
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+
+.header img {
+  animation: infinite flip 20s linear;
+  width: 130px;
+  display: flex;
+  margin: auto;
+}

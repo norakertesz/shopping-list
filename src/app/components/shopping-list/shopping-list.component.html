@@ -1,0 +1,9 @@
+<div class="shopping-list">
+    <app-shopping-form (onItemSave)="addProduct($event)"></app-shopping-form>
+    <div class="grid-container">
+    <app-shopping-item *ngFor="let p of products" [product]="p" 
+    (onItemDelete)="removeProduct($event)"
+    (onItemUpdate)="updateItem($event)">
+
+    </app-shopping-item></div>
+</div>

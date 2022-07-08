@@ -1,0 +1,14 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+    grid-auto-rows: minmax(200px, auto);
+    margin: 50px;
+    gap: 5px;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    font-family: monospace;
+
+
+
+}

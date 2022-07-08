@@ -1,0 +1,15 @@
+img{
+    width: 300px; height: auto;
+
+
+}
+
+.myTable{
+    text-align: center;
+    margin:10px auto;
+    padding:25px;
+}
+
+td{
+    padding:45px; 
+}

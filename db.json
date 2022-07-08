@@ -1,0 +1,36 @@
+{
+  "products": [
+    {
+      "product": "Fruits",
+      "amount": 2,
+      "unit": "kg",
+      "note": "🍉🍌🍍🍒",
+      "done": false,
+      "id": 1
+    },
+    {
+      "product": "Milk🐄",
+      "amount": 2,
+      "unit": "l",
+      "note": " 3,5%",
+      "done": true,
+      "id": 2
+    },
+    {
+      "product": "Bread🍞",
+      "amount": 500,
+      "unit": "g",
+      "note": "With sesam please!",
+      "done": false,
+      "id": 3
+    },
+    {
+      "product": "Pasta",
+      "amount": 500,
+      "unit": "g",
+      "note": "Spaghetti🍝",
+      "done": true,
+      "id": 4
+    }
+  ]
+}
